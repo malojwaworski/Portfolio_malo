@@ -1,32 +1,35 @@
 @font-face {
     font-family: 'Klimaks';
-    src: url('Klimaks.ttf');
+    src: url('PPNeueMontreal-Thin.otf');
 }
 
 body {
     background-color: #000000;
     margin: 30px;
-    font-family: 'Klimaks';
+    font-family: Klimaks;
 }
 
 .page-container {
     border: 1px solid #ffffff;
-    padding: 30px;
+    padding: 50px;
     height: calc(100vh - 60px);
     box-sizing: border-box;
     background-color: #000000; 
 }
 .title {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 100;
     margin: 5px;
+    font-family: Klimaks;
 }
 
 .label {
     margin: 5px;
-    font-size: 17px;
+    font-size: 1.5vh;
+    font-weight: 400;
     color: #ffffff;
+    font-family: Klimaks;
 }
 
 
@@ -46,8 +49,8 @@ body {
 .menue {
     color: #ffffff;
     font-weight: 600;
-    font-size: 2vh;
-    font-family: Arial;
+    font-size: 1.45vh;
+    font-family: Klimaks;
     text-decoration: none;
     transition: opacity 0.3s ease;
 }
@@ -62,10 +65,11 @@ body {
 
 .description_header {
     color: #ffffff;
-    font-size: 2vh;
+    font-size: 1.45vh;
     font-weight: 600;
-    font-family: Arial;
+    font-family: Klimaks;
     position: fixed;
+    line-height: 33px;
     bottom: 10%;
     left: 85%;
     right: 5%;
@@ -74,7 +78,7 @@ body {
 
 @media  screen and (max-width: 1050px) {
     .description_header {
-        font-size: 2vh;
+        font-size: 1.5vh;
         left: 10%;
         right: 10%;
     }
