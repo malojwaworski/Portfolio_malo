@@ -18,20 +18,31 @@ body {
 }
 .title {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 40px;
+=======
+    font-size: 30px;
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
     font-weight: 100;
     margin: 5px;
 }
 
 .label {
     margin: 5px;
+<<<<<<< HEAD
     font-size: 17px;
+=======
+    font-weight: 100;
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
     color: #ffffff;
 }
 
 
 .header_top {
+<<<<<<< HEAD
     margin-left: -10px;
+=======
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
     position: fixed;
     z-index: 10;
     left: calc(var(--pad)*2);
@@ -40,13 +51,21 @@ body {
 }
 
 .backheader {
+<<<<<<< HEAD
     margin-top: 70px;
+=======
+    margin-top: 50px;
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
 }
 
 .menue {
     color: #ffffff;
+<<<<<<< HEAD
     font-weight: 600;
     font-size: 2vh;
+=======
+    font-size: small;
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
     font-family: Arial;
     text-decoration: none;
     transition: opacity 0.3s ease;
@@ -57,11 +76,16 @@ body {
 }
 
 .backheader2 {
+<<<<<<< HEAD
     margin: 20px;
+=======
+    margin: 10px;
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
 }
 
 .description_header {
     color: #ffffff;
+<<<<<<< HEAD
     font-size: 2vh;
     font-weight: 600;
     font-family: Arial;
@@ -86,4 +110,12 @@ body {
         display:none; 
     }
     
+=======
+    font-size: small;
+    font-family: Arial;
+    position: fixed;
+    bottom: 100px;
+    left: 75%;
+    right: 10%;
+>>>>>>> 38bbb6d08c7f38e3016d637c0d8c20dc1dff04f1
 }
