@@ -92,26 +92,55 @@ body {
     
 }
 
-.contact {  
+/* ... Votre CSS existant ... */
+
+.contact {
     color: #ffffff;
     font-size: 1.75vh;
     font-weight: 600;
     font-family: Klimaks;
     line-height: 50px;
     text-align: center;
-    display: block;
+    position: absolute;
+    bottom: 110px; /* Ajustez la valeur selon vos besoins */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-@media  screen and (max-width: 1050px) {
-    .contact .contact1 .contact2 {
+.contact1 {
+    color: #ffffff;
+    font-size: 1.75vh;
+    font-weight: 600;
+    font-family: Klimaks;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 70px; /* Ajustez la valeur selon vos besoins */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact2 {
+    color: #ffffff;
+    font-size: 1.75vh;
+    font-weight: 600;
+    font-family: Klimaks;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px; /* Ajustez la valeur selon vos besoins */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1050px) {
+    .contact {
         font-size: 1.5vh;
-        
     }
-    
 }
 
-@media  screen and (max-width: 500px) {
-    .contact .contact1 .contact2 {
-        display:none; 
+@media screen and (max-width: 500px) {
+    .contact {
+        display: none;
     }
 }
