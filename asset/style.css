@@ -4,20 +4,38 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #060447;
     margin: 30px;
     font-family: Klimaks;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #060447;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #FFF38A;
+    border-radius: 50%;
+    transition: transform 0.1s;
 }
 
 .page-container {
-    border: 1px solid #ffffff;
+    border: 1px solid #FFF38A;
     padding: 50px;
     height: calc(100vh - 60px);
     box-sizing: border-box;
-    background-color: #000000; 
+    background-color: #060447; 
+    position: relative;
 }
 .title {
-    color: #ffffff;
+    color: #FFF38A;
     font-size: 60px;
     font-weight: 100;
     margin: 5px;
@@ -28,7 +46,7 @@ body {
     margin: 5px;
     font-size: 1.5vh;
     font-weight: 400;
-    color: #ffffff;
+    color: #FFF38A;
     font-family: Klimaks;
 }
 
@@ -47,8 +65,8 @@ body {
 }
 
 .menue {
-    color: #ffffff;
-    font-weight: 600;
+    color: #FFF38A;
+    font-weight: 900;
     font-size: 1.45vh;
     font-family: Klimaks;
     text-decoration: none;
@@ -64,7 +82,7 @@ body {
 }
 
 .description_header {
-    color: #ffffff;
+    color: #FFF38A;
     font-size: 1.45vh;
     font-weight: 600;
     font-family: Klimaks;
@@ -95,7 +113,7 @@ body {
 /* ... Votre CSS existant ... */
 
 .contact {
-    color: #ffffff;
+    color: #FFF38A;
     font-size: 1.75vh;
     font-weight: 600;
     font-family: Klimaks;
@@ -108,7 +126,7 @@ body {
 }
 
 .contact1 {
-    color: #ffffff;
+    color: #FFF38A;
     font-size: 1.75vh;
     font-weight: 600;
     font-family: Klimaks;
@@ -121,7 +139,7 @@ body {
 }
 
 .contact2 {
-    color: #ffffff;
+    color: #FFF38A;
     font-size: 1.75vh;
     font-weight: 600;
     font-family: Klimaks;
@@ -139,8 +157,3 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
-    .contact {
-        display: none;
-    }
-}
