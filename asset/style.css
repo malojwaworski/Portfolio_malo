@@ -18,19 +18,20 @@ body {
 }
 .title {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 100;
     margin: 5px;
 }
 
 .label {
     margin: 5px;
-    font-weight: 100;
+    font-size: 17px;
     color: #ffffff;
 }
 
 
 .header_top {
+    margin-left: -10px;
     position: fixed;
     z-index: 10;
     left: calc(var(--pad)*2);
@@ -39,12 +40,13 @@ body {
 }
 
 .backheader {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .menue {
     color: #ffffff;
-    font-size: small;
+    font-weight: 600;
+    font-size: 2vh;
     font-family: Arial;
     text-decoration: none;
     transition: opacity 0.3s ease;
@@ -55,15 +57,33 @@ body {
 }
 
 .backheader2 {
-    margin: 10px;
+    margin: 20px;
 }
 
 .description_header {
     color: #ffffff;
-    font-size: small;
+    font-size: 2vh;
+    font-weight: 600;
     font-family: Arial;
     position: fixed;
-    bottom: 100px;
-    left: 75%;
-    right: 10%;
+    bottom: 10%;
+    left: 85%;
+    right: 5%;
+    display: block;
+}
+
+@media  screen and (max-width: 1050px) {
+    .description_header {
+        font-size: 2vh;
+        left: 10%;
+        right: 10%;
+    }
+    
+}
+
+@media  screen and (max-width: 500px) {
+    .description_header {
+        display:none; 
+    }
+    
 }
