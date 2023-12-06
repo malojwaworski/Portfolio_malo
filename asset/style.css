@@ -201,3 +201,15 @@ body {
         font-size: 1.5vh;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .contact1 {
+        font-size: 1.5vh;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .contact2 {
+        font-size: 1.5vh;
+    }
+}
