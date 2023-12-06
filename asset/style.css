@@ -21,7 +21,7 @@ body {
     position: absolute;
     width: 100px;
     height: 100px;
-    background-color: #FFF38A;
+    background-color: #ECE328;
     border-radius: 50%;
     transition: transform 0.1s;
 }
@@ -29,7 +29,7 @@ body {
 .page-container {
     position: relative;
     overflow: hidden;
-    border: 1px solid #FFF38A;
+    border: 1px solid #ECE328;
     padding: 50px;
     height: calc(100vh - 60px);
     box-sizing: border-box;
@@ -80,7 +80,7 @@ body {
   }
 
 .title {
-    color: #FFF38A;
+    color: #ECE328;
     font-size: 60px;
     font-weight: 100;
     margin: 5px;
@@ -91,7 +91,7 @@ body {
     margin: 5px;
     font-size: 1.5vh;
     font-weight: 400;
-    color: #FFF38A;
+    color: #ECE328;
     font-family: Klimaks;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .menue {
-    color: #FFF38A;
+    color: #ECE328;
     font-weight: 900;
     font-size: 1.45vh;
     font-family: Klimaks;
@@ -127,7 +127,7 @@ body {
 }
 
 .description_header {
-    color: #FFF38A;
+    color: #ECE328;
     font-size: 1.45vh;
     font-weight: 600;
     font-family: Klimaks;
@@ -158,8 +158,8 @@ body {
 /* ... Votre CSS existant ... */
 
 .contact {
-    color: #FFF38A;
-    font-size: 1.75vh;
+    color: #ECE328;
+    font-size: 2vh;
     font-weight: 600;
     font-family: Klimaks;
     line-height: 50px;
@@ -171,8 +171,8 @@ body {
 }
 
 .contact1 {
-    color: #FFF38A;
-    font-size: 1.75vh;
+    color: #ECE328;
+    font-size: 2vh;
     font-weight: 600;
     font-family: Klimaks;
     line-height: 50px;
@@ -184,8 +184,8 @@ body {
 }
 
 .contact2 {
-    color: #FFF38A;
-    font-size: 1.75vh;
+    color: #ECE328;
+    font-size: 2vh;
     font-weight: 600;
     font-family: Klimaks;
     line-height: 50px;
